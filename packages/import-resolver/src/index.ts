@@ -14,7 +14,7 @@ export const resolve = (
 } => {
   const parserServices = getParserServices();
   if (!parserServices) {
-    throw new Error('Failed to find @typescript-eslint parser services');
+    throw new Error('Failed to find @typescript-eslint parser services. Did you forget to extend from `plugin:ts-parser-service/listen`?');
   }
 
   if (specifier.startsWith(NODE_PROTOCOL)) {
