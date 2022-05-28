@@ -30,11 +30,10 @@ Make sure you've got the `@typescript-eslint/parser` and `@typescript-eslint/esl
 }
 ```
 
-#### listener
-
-We use a listener, `eslint-plugin-ts-parser-service`, which adds a dummy rule to the eslint context to help us get the parser service serving the parsing file.
+[`eslint-plugin-ts-parser-service`](https://www.npmjs.com/package/eslint-plugin-ts-parser-service) helps us get the parser service serving the parsing file.
 
 ### Configure resolver
+
 Set `ts-parser` as the [`import/resolver`](https://github.com/import-js/eslint-plugin-import#resolvers). For example,
 
 ```json5

@@ -3,7 +3,7 @@ import { ESLintUtils, ParserServices } from '@typescript-eslint/utils';
 let parserServices: ParserServices | null = null;
 
 const createRule = ESLintUtils.RuleCreator(() => (
-  'https://www.npmjs.com/package/eslint-import-resolver-ts-parser#listener'
+  'https://www.npmjs.com/package/eslint-plugin-ts-parser-service#readme'
 ));
 
 export const listener = createRule({
