@@ -1,0 +1,24 @@
+{
+  "name": "eslint-plugin-ts-parser-service",
+  "version": "0.1.0",
+  "description": "Find the running @typescript-eslint parser service",
+  "main": "./build/index.js",
+  "exports": {
+    ".": "./build/index.js",
+    "./listener": "./build/listener.js",
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "PaperStrike",
+  "repository": "github:PaperStrike/eslint-import-resolver-ts-parser",
+  "license": "ISC",
+  "files": [
+    "build"
+  ],
+  "peerDependencies": {
+    "@typescript-eslint/utils": "^5.0.0",
+    "typescript": ">=3.0.3"
+  }
+}
