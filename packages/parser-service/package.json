@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-ts-parser-service",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Find the running @typescript-eslint parser service",
   "main": "./build/index.js",
   "exports": {
