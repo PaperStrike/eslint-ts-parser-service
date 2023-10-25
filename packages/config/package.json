@@ -1,0 +1,24 @@
+{
+  "name": "eslint-config-ts-parser-service",
+  "version": "0.1.2",
+  "description": "Config with @typescript-eslint parser service",
+  "main": "./build/index.js",
+  "exports": {
+    ".": "./build/index.js",
+    "./resolver": "./build/resolver.js",
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "PaperStrike",
+  "repository": "github:PaperStrike/eslint-import-resolver-ts-parser",
+  "license": "ISC",
+  "files": [
+    "build"
+  ],
+  "dependencies": {
+    "eslint-import-resolver-ts-parser": "^0.1.0",
+    "eslint-plugin-ts-parser-service": "^0.1.0"
+  }
+}
