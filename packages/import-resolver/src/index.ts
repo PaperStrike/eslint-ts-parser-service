@@ -24,6 +24,10 @@ export const resolve = (
     };
   }
 
+  if (!parserServices.program) {
+    throw new Error('The type check program is disabled. Imports can\'t be resolved without it.');
+  }
+
   const resolvedPath = new TSResolver(parserServices.program).resolve(specifier, containingFile);
   return {
     found: !!resolvedPath || builtinModules.includes(specifier),

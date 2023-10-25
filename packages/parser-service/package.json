@@ -18,7 +18,7 @@
     "build"
   ],
   "peerDependencies": {
-    "@typescript-eslint/utils": "^5.0.0",
+    "@typescript-eslint/utils": ">=5.0.0",
     "typescript": ">=3.0.3"
   }
 }
