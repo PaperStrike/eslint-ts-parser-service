@@ -1,6 +1,6 @@
-# eslint-import-resolver-ts-parser
+# eslint-import-resolver-ts-parser-service
 
-[![npm Package](https://img.shields.io/npm/v/eslint-import-resolver-ts-parser?logo=npm "eslint-import-resolver-ts-parser")](https://www.npmjs.com/package/eslint-import-resolver-ts-parser)
+[![npm Package](https://img.shields.io/npm/v/eslint-import-resolver-ts-parser-service?logo=npm "eslint-import-resolver-ts-parser-service")](https://www.npmjs.com/package/eslint-import-resolver-ts-parser-service)
 
 Resolver using [@typescript-eslint](https://github.com/typescript-eslint) parser service. Plugin for [`eslint-plugin-import`](https://www.npmjs.com/package/eslint-plugin-import).
 
@@ -9,7 +9,7 @@ This plugin reads options from `@typescript-eslint` parser service, and then use
 ## Installation
 
 ```shell
-npm i -D eslint-import-resolver-ts-parser
+npm i -D eslint-import-resolver-ts-parser-service
 ```
 
 ### Set up the parser
@@ -41,7 +41,7 @@ Set `ts-parser` as the [`import/resolver`](https://github.com/import-js/eslint-p
 {
   // ...
   "settings": {
-    "import/resolver": "ts-parser"
+    "import/resolver": "ts-parser-service"
   }
 }
 ```

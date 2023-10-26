@@ -3,6 +3,6 @@ export = {
     'plugin:ts-parser-service/listen',
   ],
   settings: {
-    'import/resolver': 'ts-parser',
+    'import/resolver': 'ts-parser-service',
   },
 };

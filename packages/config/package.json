@@ -18,7 +18,7 @@
     "build"
   ],
   "dependencies": {
-    "eslint-import-resolver-ts-parser": "^0.1.0",
+    "eslint-import-resolver-ts-parser-service": "^0.1.0",
     "eslint-plugin-ts-parser-service": "^0.1.0"
   }
 }

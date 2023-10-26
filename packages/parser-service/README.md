@@ -8,7 +8,7 @@ This adds a dummy TS rule to eslint that does nothing but expose the TS parser s
 
 ## Example
 
-See [`eslint-import-resolver-ts-parser`](https://github.com/PaperStrike/eslint-import-resolver-ts-parser/tree/main/packages/import-resolver) for a complete example.
+See [`eslint-import-resolver-ts-parser-service`](https://github.com/PaperStrike/eslint-import-resolver-ts-parser/tree/main/packages/import-resolver) for a complete example.
 
 ```json5
 // .eslintrc.json
