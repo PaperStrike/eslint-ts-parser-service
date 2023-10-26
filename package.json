@@ -1,5 +1,5 @@
 {
-  "name": "eslint-import-resolver-ts-parser",
+  "name": "eslint-ts-parser-service",
   "version": "0.0.0",
   "scripts": {
     "build": "tsc -b -v",
@@ -7,7 +7,7 @@
     "prepare": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "github:PaperStrike/eslint-import-resolver-ts-parser",
+  "repository": "github:PaperStrike/eslint-ts-parser-service",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^20.8.8",
