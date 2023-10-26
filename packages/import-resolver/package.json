@@ -1,6 +1,6 @@
 {
   "name": "eslint-import-resolver-ts-parser-service",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "description": "Resolver using @typescript-eslint parser service. Plugin for eslint-plugin-import",
   "main": "./build/index.js",
   "scripts": {
@@ -13,6 +13,6 @@
     "build"
   ],
   "peerDependencies": {
-    "eslint-plugin-ts-parser-service": "^0.1.0"
+    "eslint-plugin-ts-parser-service": "^0.2.0"
   }
 }
