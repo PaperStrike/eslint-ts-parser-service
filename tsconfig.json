@@ -19,7 +19,7 @@
   "files": [],
   "references": [
     { "path": "./packages/config" },
-    { "path": "./packages/parser-service" },
-    { "path": "./packages/import-resolver" }
+    { "path": "./packages/import-resolver" },
+    { "path": "./packages/plugin" }
   ]
 }
