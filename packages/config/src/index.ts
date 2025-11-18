@@ -10,8 +10,10 @@ const resolverConfig: Linter.Config[] = [
   }
 ];
 
-export default {
+const plugin = {
   configs: {
     resolver: resolverConfig,
   } ,
 } satisfies ESLint.Plugin;
+
+export = plugin;

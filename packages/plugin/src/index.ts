@@ -21,4 +21,4 @@ const listenConfig: Linter.Config = {
   },
 };
 
-export default plugin;
+export = plugin;
