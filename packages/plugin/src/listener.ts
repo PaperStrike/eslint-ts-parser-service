@@ -2,11 +2,13 @@ import { ESLintUtils, type ParserServices } from '@typescript-eslint/utils';
 
 let parserServices: ParserServices | null = null;
 
-const createRule = ESLintUtils.RuleCreator(() => (
+const createRule = ESLintUtils.RuleCreator<{
+  requiresTypeChecking?: boolean;
+}>(() => (
   'https://www.npmjs.com/package/eslint-plugin-ts-parser-service#readme'
 ));
 
-export const listener = createRule<[], never>({
+export const listener = createRule({
   name: 'extract-ts-parser-services-helper',
   meta: {
     docs: {

@@ -1,12 +1,24 @@
-import type { ESLintUtils } from '@typescript-eslint/utils';
+import type { ESLint, Linter } from 'eslint';
 import { listener } from './listener';
 
-export = {
-  rules: { listener } as Record<string, ESLintUtils.RuleModule<string>>,
+const plugin = {
+  rules: {
+    listener,
+  } as object as ESLint.Plugin['rules'],
   configs: {
-    listen: {
-      plugins: ['ts-parser-service'],
-      rules: { 'ts-parser-service/listener': 'error' },
+    get listen() {
+      return listenConfig;
     },
   },
+} satisfies ESLint.Plugin;
+
+const listenConfig: Linter.Config = {
+  plugins: {
+    'ts-parser-service': plugin,
+  },
+  rules: {
+    'ts-parser-service/listener': 'error'
+  },
 };
+
+export default plugin;

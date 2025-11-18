@@ -10,11 +10,10 @@
   "repository": "github:PaperStrike/eslint-ts-parser-service",
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "^20.8.8",
-    "@typescript-eslint/eslint-plugin": "^6.9.0",
-    "@typescript-eslint/parser": "^6.9.0",
-    "eslint": "^8.52.0",
-    "typescript": "^5.2.2"
+    "@types/node": "^20.19.25",
+    "@typescript-eslint/parser": "^8.47.0",
+    "eslint": "^9.39.1",
+    "typescript": "^5.9.3"
   },
   "workspaces": [
     "./packages/*"

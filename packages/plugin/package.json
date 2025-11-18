@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-ts-parser-service",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "Find the running @typescript-eslint parser service",
   "main": "./build/index.js",
   "exports": {
@@ -18,7 +18,8 @@
     "build"
   ],
   "peerDependencies": {
-    "@typescript-eslint/utils": ">=5.0.0",
-    "typescript": ">=3.0.3"
+    "eslint": ">=9.0.0",
+    "@typescript-eslint/utils": ">=8.0.0",
+    "typescript": ">=4.8.4"
   }
 }
