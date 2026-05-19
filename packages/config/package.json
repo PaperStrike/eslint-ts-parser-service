@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-ts-parser-service",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Config with @typescript-eslint parser service",
   "main": "./build/index.js",
   "exports": {
@@ -20,7 +20,7 @@
     "eslint": ">=9.0.0"
   },
   "dependencies": {
-    "eslint-import-resolver-ts-parser-service": "^1.0.1",
-    "eslint-plugin-ts-parser-service": "^1.0.1"
+    "eslint-import-resolver-ts-parser-service": "^1.0.2",
+    "eslint-plugin-ts-parser-service": "^1.0.2"
   }
 }
