@@ -5,7 +5,7 @@ const resolverConfig: Linter.Config[] = [
   parserServicePlugin.configs.listen,
   {
     settings: {
-      'import/resolver': 'ts-parser-service',
+      'import/resolver': require.resolve('eslint-import-resolver-ts-parser-service'),
     },
   }
 ];
