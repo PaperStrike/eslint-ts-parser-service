@@ -7,7 +7,10 @@
     "prepare": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "github:PaperStrike/eslint-ts-parser-service",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaperStrike/eslint-ts-parser-service.git"
+  },
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^20.19.25",
